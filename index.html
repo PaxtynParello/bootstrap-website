@@ -8,11 +8,81 @@
     <link rel="stylesheet" href="style.css">
 </head>
   <body >
+    <section>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.google.com/search?sca_esv=d7661df9b4d507f8&sxsrf=AKL5yDiQYFloOMgvi-Ys_SufO9DMbt0ZSw:1795159396441&udm=2&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVWJKALjCNlIJviHEZmQkH1v0iYpCrBG8JThOi_XJE2meXaLBrW8PZFWZap597SgWOlv7x0KQ2ogs7b9HplIgrmmllh2zpEBEpk0uM0fZLeCFhJPCYhqDHIr2sgQJzEJPPLAXzwZmP3xCOE8598hq4LhtrB5m4rtwEMAQkDUCgkKS2BFKRQ&q=tabby+cat&sa=X&ved=2ahUKEwiygI_xgZaYAxWPJ0QIHYPVItsQtKgLegQIGBAB&biw=1536&bih=695&dpr=1.25#sv=CAMSXhoyKhBlLXR4V1B2UmQ1WFJ0enlNMg50eFdQdlJkNVhSdHp5TToOVTlsLUtIV2tnY1hZa00gBCokCg42d3o5NHp5SW1uS3hGTRIQZS10eFdQdlJkNVhSdHp5TRgAMAEYByCdypT6DkoIEAIYASACKAE">More pictures of my cat</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="mailto:mylostcat@gmail.com">Email me</a></li>
+            <li><a class="dropdown-item" href="tel:+1234567890">Call me</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    </section>
+    <span class="border border-black border-5 rounded-3" style="background-image: url(tabby2.jpg); height: 400px; width: 100%; background-position:center;"> </span>
     <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: center;">My Cat is Missing!</h1>
     <section>
     </div>
     </section>
+    <div class="container">
+    <section>
+      <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="tabby2.jpg" class="d-block w-100" alt="tabby2">
+    </div>
+    <div class="carousel-item">
+      <img src="tabby.jpg" class="d-block w-100" alt="tabby">
+    </div>
+    <div class="carousel-item">
+      <img src="tabby3.jpg" class="d-block w-100" alt="tabby3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </section>
+    <div class ="row">
+      <div class="col">
+        <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: center;">My Cat's Name is Elly</h2>
+      </div>
+</div>
+<br>
 
+  <section>
     <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2  class="accordion-header" >
@@ -63,6 +133,23 @@
     </div>
   </div>
 </div>
+
+</section>
+<br>
+<h4 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: center;">If you have any information about my cat please contact me:</h4>
+<section>
+  <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Any important information:</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<a class="btn btn-primary" href="mailto:mylostcat@gmail.com" role="button">Send Email</a>
+<button type="button" class="btn btn-primary" disabled>Donate</button>
+  </section>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
